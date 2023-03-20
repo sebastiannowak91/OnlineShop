@@ -80,7 +80,7 @@ button {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 30px;
+  gap: 2em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -129,7 +129,7 @@ button {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  height: 50%;
+  max-height: 50%;
 }
 
 .wrapper .shop .shop-item .shop-item-hero .hero-headline {
@@ -147,7 +147,7 @@ button {
 
 .wrapper .shop .shop-item .shop-item-hero img {
   width: 50%;
-  height: auto;
+  max-height: 7rem;
   margin-right: .2em;
   -o-object-fit: cover;
      object-fit: cover;
