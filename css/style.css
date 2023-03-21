@@ -80,10 +80,10 @@ button {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 2em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  border: 1px solid red;
 }
 
 .wrapper .container {
@@ -94,6 +94,7 @@ button {
   -webkit-box-flex: 1.5;
       -ms-flex: 1.5;
           flex: 1.5;
+  margin-right: 1em;
 }
 
 .wrapper .shop .shop-items {
