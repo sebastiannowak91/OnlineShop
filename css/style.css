@@ -83,7 +83,6 @@ button {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border: 1px solid red;
 }
 
 .wrapper .container {
@@ -401,6 +400,20 @@ button {
   .wrapper {
     width: 1200px;
     margin: 5em auto;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .wrapper .shop .shop-items {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .wrapper .shop .shop-items {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
   }
 }
 /*# sourceMappingURL=style.css.map */
